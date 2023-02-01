@@ -49,50 +49,9 @@ b. Unzip and upload to your server
 c. Visit the public folder
 d. Follow the instructions
 
-Please make sure that only public directory is visible to the outside world!
-
-#  Installation Methods
- 
- You can also install FlyMyShop in the following ways as well:
-
-a. Manual
-
-Download the release and follow the steps below:
-
-```
-  - composer install
-  - cd  core 
-  - cp .env.example .env
-  - complete .env values (optional)
-  - chmod -R 777 storage
-  - php artisan key:generate 
-  - php artisan migrate  (if prompted say yes)
-  - php artisan db:seed (if prompted say yes)
-  - php artisan serve --port=8000 --host=localhost &
-```
-
-b. Using Composer
-
-```
-composer create-project --prefer-dist aasisvinayak/shop
-
-```
-
-c. Docker
-
-```
-docker pull aasisvinayak/flymyshop
-```
-
-Please make sure that Apache is running in your docker container if the shop fails to load.
+Please make sure that only public directory is visible to the outside world and Apache is running.
 
 #Get Started
-
-If you have pull the release via composer, please go to the 'shop' folder and issue
-
-```
-php artisan serve --port 8000
-```
 
 The application will be available at http://localhost:8000
 
@@ -140,12 +99,3 @@ If you wish to contribute please fork the repository, edit and submit a pull req
 # License
 
 GNU General Public License version 3 (GPLv3)
-
-# Links
-
-[Fly My Cloud Limited Homepage](https://www.flymycloud.com)
-Demo (coming soon)
-
-#Contributors
-
-[Aasis Vinayak (acev)](https://aasisvinayak.com)
