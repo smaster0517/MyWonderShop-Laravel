@@ -1,5 +1,5 @@
 # What is this?
-Project Website
+My shop with Laravel
 
 # How to run this locally?
 
