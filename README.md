@@ -40,6 +40,7 @@ Documentation for the FlyMyShop can be found on the [official website](https://f
 - OS independent
 - Laravel based
 
+
 #Automated Installation and Shop Configuration
 
 Please follow the steps below to install FlyMyShop on your web server
@@ -51,6 +52,20 @@ d. Follow the instructions
 
 Please make sure that only public directory is visible to the outside world and Apache is running.
 
+# Installation Methods
+
+```
+  - composer install
+  - cd  core 
+  - cp .env.example .env
+  - complete .env values (optional)
+  - chmod -R 777 storage
+  - php artisan key:generate 
+  - php artisan migrate  (if prompted say yes)
+  - php artisan db:seed (if prompted say yes)
+  - php artisan serve --port=8000 --host=localhost &
+ ```
+  
 #Get Started
 
 The application will be available at http://localhost:8000
