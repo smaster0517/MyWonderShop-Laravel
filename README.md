@@ -54,6 +54,8 @@ Please make sure that only public directory is visible to the outside world and 
 
 # Installation Methods
 
+Download the release and follow the steps below:
+
 ```
   - composer install
   - cd  core 
