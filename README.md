@@ -14,7 +14,3 @@ GNU General Public License version 3 (GPLv3)
 
 [Fly My Cloud Limited Homepage](https://www.flymycloud.com)
 Demo (todo)
-
-#Contributors
-
-[Aasis Vinayak (acev)](https://aasisvinayak.com)
